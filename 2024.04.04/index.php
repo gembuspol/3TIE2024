@@ -8,7 +8,7 @@
 <body>
     <h1>Tablice w php</h1>
     <?php
-        //tablica to zmienna, która przechowuje w sowie wiele danych w sposoób uporządkowany
+        //tablica to zmienna, która przechowuje w sobie wiele danych w sposoób uporządkowany
         //deklarujemy tablicę za pomocą $, następnie nazwa tablicy, a potem [] nawiasy kwadratowe w których podajemy indeksy
         //indekst to kolejny numer zawartości tablicy. Indeksy mogą występować w postaci liczbowej - wtedy rozpoczynamy numeracje od 0; lub w postaci ciągu znaków - klucza
         $klasa[0]="Jakub";
