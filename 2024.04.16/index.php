@@ -41,6 +41,29 @@
         echo "<br>pomieszanie elementów tablicy: ";
         shuffle($tablica);
         print_r($tablica);
+
+        echo "<h1>Pętla for</h1>";
+        // pętle służą do wykonywania czynności, które mają się wykonać kilkanaście razy, ma to na celu zaoszczędzenie czasu i zmienjszenie ilości kodu
+        //petla FOR służy do wykonania czynności przez określoną ilość razy - wiemy ile razy ma się wykonać działanie 
+        // budowa pętli FOR
+        //rozpoczyna się od słowa kluczowego for, następnie w nawiasie podajemy 3 parametry pętli:
+            //pierwszy paramert określa zmienną która będzie iteratorem pętli  i jej poczatkową wartość (liczba która zmienia się w każdy przejści pętli i dzięki niej możemy określić koniec pętli)
+            //drugi parametr określa warunek zakończenia pętli
+            //trzeci parametr określa zmianę iteratora po przejściu pętli np. zwiększenie go o 1
+        //następnie dajemy w nawiasie klamnrowy {} instrukcie które mają się wykonywać w pętli
+
+        //działanie ++ to inkrementacja, zwiększenie wartości zmiennej o 1
+        //działanie -- to dekrementacja, zmniejszenie wartości o zmiennej 1
+        echo "<br>Wypisanie 10 kolejnych liczb za pomocą pętli for";
+        for($iterator=1;$iterator<=10;$iterator++){
+            echo '<br>Liczba: '.$iterator;
+        }
+        //wypisanie liczb nieparzystych od 5 do 15
+        //+= dodanie wartości i zapisanie jej do zmiennej
+        echo "<br>Wypisanie  liczb nieparzystych od 5 do 15 za pomocą pętli for";
+        for($iterator=5;$iterator<=16;$iterator+=2){
+            echo '<br>Liczba: '.$iterator;
+        }
     ?>
 </body>
 </html>
